@@ -1,0 +1,179 @@
+.img {
+    height: 754px;
+    width: 850px;
+}
+
+
+/* h1 color */
+
+.size {
+    color: whitesmoke;
+    margin-left: 58px;
+    margin-top: 435px;
+}
+
+
+/* body {
+    overflow: scroll;
+} */
+
+.img-yoga {
+    background-image: url('./image/login-large-img.jpg');
+    height: 754px;
+    width: 850px;
+    /* margin-bottom: 25px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input_box {
+    border-radius: 50px;
+    margin-top: 23px;
+    margin-right: 53px;
+    margin-left: 80px;
+}
+
+.nav {
+    color: #342f1b;
+    background-color: orange;
+    padding: 0px;
+    height: 85px;
+}
+
+.navbar-brand {
+    margin-right: 1264px;
+    margin-left: 210px
+}
+
+.drawar {
+    font-size: 40px;
+}
+
+.mrg-l {
+    margin-left: -11px;
+}
+
+
+/* .profile_img {
+    border-radius: 70%;
+    shape-image-threshold: 20px;
+} */
+
+.sidebar {
+    margin: 6px;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    /* height: auto; */
+    overflow: auto;
+    height: 620px;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: orange;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+.carousel {
+    margin-left: 118px;
+    margin-top: 9px;
+    margin-right: 11px;
+    border-radius: 4px
+}
+
+
+/* .card_row2 {
+    margin-left: 25px;
+    margin-top: 42px;
+} */
+
+.scroll {
+    height: 100%;
+    overflow: scroll;
+}
+
+.redius_c {
+    border-radius: 36px;
+}
+
+.row1-m {
+    margin-right: -105px;
+    margin-left: -79px;
+}
+
+.redius {
+    border-radius: 34px;
+}
+
+.body {
+    overflow-y: hidden;
+}
+
+.text {
+    text-align: center;
+}
+
+.margin {
+    margin-left: 208px;
+}
+
+.card1 {
+    margin-right: 102px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.table {
+    background-color: rgb(253, 255, 251);
+    margin-left: 20PX;
+    margin-top: 9px;
+    border-right: 10px;
+}
